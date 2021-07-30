@@ -106,7 +106,7 @@ section {
 }
 
 .case_study_shunya {
-  background: url(/images/shunya_inc_bg.svg);
+  background: url(images/shunya_inc_bg.svg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
