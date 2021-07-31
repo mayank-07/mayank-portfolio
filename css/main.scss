@@ -252,6 +252,11 @@ button:hover{
     text-align: center;
 }
 
+// @media only screen and (max-width: 600px) {
+//     .case_study_shunya {
+//         background: url(../images/shunya_inc_bg_mobile.svg);
+//     }
+// }
 
 @media only screen and (min-width: 800px) {
     .nav-container{
@@ -283,6 +288,7 @@ button:hover{
 
 
     .case_study_shunya {
+        background: url(../images/shunya_inc_bg_mobile.svg);
         display: grid;
         grid-template-columns: 40% auto;
         align-items: center;
