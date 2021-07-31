@@ -102,6 +102,7 @@ section {
    // height: 967px;
     background: url(../images/shunya_inc_bg.svg);
     //flex-wrap: wrap-reverse;
+    width: fit-content;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -113,6 +114,7 @@ section {
 .case_study_summit {
     // width: 1920px;
     // height: 1000px;
+     width: 100%;
      background: url(../images/summit_bg.svg);
      display: flex;
      flex-direction: column-reverse;
@@ -252,11 +254,6 @@ button:hover{
     text-align: center;
 }
 
-// @media only screen and (max-width: 600px) {
-//     .case_study_shunya {
-//         background: url(../images/shunya_inc_bg_mobile.svg);
-//     }
-// }
 
 @media only screen and (min-width: 800px) {
     .nav-container{
@@ -288,7 +285,6 @@ button:hover{
 
 
     .case_study_shunya {
-        background: url(../images/shunya_inc_bg_mobile.svg);
         display: grid;
         grid-template-columns: 40% auto;
         align-items: center;
