@@ -129,7 +129,6 @@ header ul a {
 }
 
 .case_study_shunya {
-  background: url(../images/shunya_inc_bg.svg);
   width: auto;
   background-repeat: no-repeat;
 }
@@ -173,6 +172,7 @@ header ul a {
     display: none;
   }
   .case_study_shunya {
+    background: url(../images/shunya_inc_bg.svg);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
