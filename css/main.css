@@ -3,6 +3,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Poppins', arial;
+  overflow-x: hidden;
 }
 
 ul {
@@ -16,7 +17,7 @@ a {
 }
 
 img {
-  width: 100%;
+  width: 80%;
 }
 
 .nav-container {
@@ -40,10 +41,12 @@ header {
 
 header .logo {
   color: black;
+  font-size: 1.4em;
   font-weight: bold;
 }
 
 header ul {
+  font-size: 17px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,7 +63,7 @@ header ul a {
   display: -ms-grid;
   display: grid;
   text-align: center;
-  padding: 4em;
+  padding: 2em;
 }
 
 .hero .social-header {
@@ -77,90 +80,15 @@ header ul a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 1em;
-}
-
-.content-left {
-  margin-top: 18rem;
-}
-
-.content-left h1 {
-  font-size: 50px;
-}
-
-.content-left p {
-  margin-top: -1em;
-  font-size: 1em;
+  padding: 2em 3em;
 }
 
 .content-right {
   display: none;
 }
 
-section {
+.scroll {
   text-align: center;
-}
-
-.portfolio {
-  padding-top: 7em;
-}
-
-.case_study_shunya {
-  background: url(../images/shunya_inc_bg.svg);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.case_study_summit {
-  background: url(../images/summit_bg.svg);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.case_study_left {
-  padding-bottom: 5em;
-}
-
-.case_study_shunya img {
-  max-width: 500px;
-  padding: 3em;
-}
-
-.title {
-  color: black;
-  font-size: 2em;
-  font-weight: bold;
-  display: block;
-  margin-top: -.4em;
-}
-
-.description {
-  color: #595959;
-  font-size: .9em;
-  margin-bottom: 3em;
-  line-height: 1.8em;
-  font-weight: 500;
-}
-
-.case_study_summit img {
-  max-width: 480px;
-  padding: 5em;
 }
 
 .organizations {
@@ -169,7 +97,7 @@ section {
   display: -ms-grid;
   display: grid;
   text-align: center;
-  padding: 8em 4em;
+  padding: 2em 4em 8em 4em;
   height: 300px;
 }
 
@@ -196,132 +124,136 @@ section {
   padding: 1em;
 }
 
-.about_me {
-  display: -ms-grid;
-  display: grid;
+.portfolio {
+  padding-top: 7em;
 }
 
-.about_me .about_me_left {
-  padding: 5em;
+.case_study_shunya {
+  background: url(../images/shunya_inc_bg.svg);
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+.case_study_summit {
+  background: url(../images/summit_bg.svg);
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+.about_me {
+  padding: 2em;
   text-align: justify;
 }
 
-.about_me .memoji {
-  max-width: 190px;
-  padding: 4em 13em;
-}
-
-.primary_footer {
-  background-color: black;
-  color: white;
-  height: 20rem;
-  padding: 4em 15em 0em 15em;
-}
-
-.primary_footer h2 {
-  font-size: 3rem;
-}
-
-.primary_footer .desc {
-  font-size: 2em;
-  margin-top: -1em;
-}
-
-.line {
-  margin-top: 4em;
-  height: 2px;
-  background-color: #5a5a5a;
-  border-radius: 50%;
-}
-
-button {
-  border: 2px solid #595959;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1em;
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
-}
-
-button:hover {
-  background-color: #3a3a3a;
-  color: white;
-}
-
-.ending {
-  text-align: center;
-}
-
-@media only screen and (min-width: 800px) {
-  .nav-container .logo {
-    margin-left: 12.5em;
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  body {
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .portfolio {
-    text-align: left;
+  header {
+    place-content: center;
+    display: block;
   }
-  .hero {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  header .logo {
+    font-size: 1em;
   }
-  .hero .content-left {
-    text-align: left;
-    margin-left: 10rem;
+  header ul {
+    display: block;
+    font-size: .7em;
   }
-  .hero .content-right {
-    display: unset;
-    margin-left: 18em;
-    margin-top: 6em;
+  header ul li {
+    padding: 7px;
   }
-  .hero .social-header {
-    margin-left: -1em;
+  .case_study_content {
+    padding: 1em;
+  }
+  .count {
+    display: none;
   }
   .case_study_shunya {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 40% auto;
-        grid-template-columns: 40% auto;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    place-content: center;
-    height: 900px;
-  }
-  .case_study_shunya img {
-    float: right;
-    max-width: 700px;
-  }
-  .case_study_summit {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 40% auto;
-        grid-template-columns: 40% auto;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    place-content: center;
-    height: 900px;
-  }
-  .case_study_summit img {
-    float: right;
-    max-width: 700px;
-  }
-  .case_study_left {
-    padding-left: 10em;
-  }
-  .nav-container ul {
-    margin-right: 10em;
-  }
-  .about_me {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 10em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
-  .about_me .about_me_left {
-    width: 50em;
+  .case_study_shunya img {
+    margin: auto;
+  }
+  .case_study_summit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .case_study_summit img {
+    margin: auto;
+  }
+  .memoji img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header {
+    place-content: center;
+    display: block;
+  }
+  header .logo {
+    font-size: 1em;
+  }
+  header ul {
+    display: block;
+    font-size: .7em;
+  }
+  header ul li {
+    padding: 7px;
+  }
+  .count {
+    display: none;
+  }
+  .case_study_shunya {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .case_study_shunya img {
+    margin: auto;
+  }
+  .case_study_summit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .case_study_summit img {
+    margin: auto;
   }
 }
 /*# sourceMappingURL=main.css.map */
