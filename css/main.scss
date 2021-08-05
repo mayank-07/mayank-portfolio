@@ -116,7 +116,6 @@ header {
     background-repeat: no-repeat;
 }
 .case_study_summit{
-    background: url(../images/summit_bg.svg) ;
     width: auto;
     background-repeat: no-repeat;
 }
@@ -166,6 +165,7 @@ header {
         }
     }
     .case_study_summit{
+        background: url(../images/summit_bg_mobile.svg) ;
         display: flex;
         flex-direction: column-reverse;
         img{
@@ -212,6 +212,7 @@ header {
             }
         }
         .case_study_summit{
+            background: url(../images/summit_bg_mobile.svg) ;
             display: flex;
             flex-direction: column-reverse;
             img{
