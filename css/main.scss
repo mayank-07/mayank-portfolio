@@ -142,9 +142,7 @@ button{
 button:hover{
     background-color: black;
 }
-button:visited{
-    color: white;
-}
+
 
 // @media only screen and (max-width: 360px){
 
@@ -200,7 +198,8 @@ button:visited{
     .memoji img {
         display: flex;
         justify-content: center;
-        width: 100%;
+        width: 4em;
+        height: auto;
     }
 
 
@@ -251,6 +250,7 @@ button:visited{
             display: flex;
             justify-content: center;
             width: 100%;
+            height: auto;
 
     }
     .case_study_content{
