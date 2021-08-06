@@ -303,4 +303,23 @@ button:hover {
     text-align: center;
   }
 }
+
+@media only screen and (min-width: 980px) and (max-width: 1199px) {
+  .content-right {
+    display: unset;
+  }
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .hero .content-left {
+    text-align: left;
+    margin: 8em 4em;
+  }
+  .hero .social-header {
+    margin-left: -3.5em;
+    margin-top: -2em;
+  }
+}
 /*# sourceMappingURL=main.css.map */

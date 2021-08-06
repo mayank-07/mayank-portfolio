@@ -262,3 +262,21 @@ button:hover{
         text-align: center;
     }
 }
+
+@media only screen and (min-width: 980px) and (max-width: 1199px) {
+        .content-right{
+            display: unset;
+        }
+        .hero{
+            display: flex;
+            
+            .content-left {
+                text-align: left;
+                margin: 8em 4em;
+            }
+            .social-header{
+                margin-left: -3.5em;
+                margin-top: -2em;
+            }
+        }
+    }
