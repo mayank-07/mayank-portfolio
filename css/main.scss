@@ -279,4 +279,57 @@ button:hover{
                 margin-top: -2em;
             }
         }
+        .case_study_shunya{
+            background: url(../images/shunya_inc_bg.svg) ;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            width: 100%;
+            padding: 4em;
+            display: grid;
+            grid-template-columns: 40% auto;
+            align-items: center;
+            font-size: 2em;
+
+            button{
+                margin-left: -.5em;
+                margin-top: -1em;
+            }
+            img {
+                margin-left: 1em;
+            }
+            
+        }
+        .case_study_summit{
+            background: url(../images/summit_bg.svg) ;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            width: 100%;
+            padding: 4em;
+            display: grid;
+            grid-template-columns: 40% auto;
+            align-items: center;
+            font-size: 2em;
+            .count{
+                font-size: 15px;
+            }
+
+            button{
+                margin-left: -.5em;
+                margin-top: -1em;
+            }
+            img {
+                margin-left: 1em;
+            }
+        }
+        .count{
+            font-size: 20px;
+        }
+        .about_me{
+            display: flex;
+            margin-left: 4em;
+            .about_me_left {
+                width: 60%;
+            }
+        }
+
     }

@@ -321,5 +321,64 @@ button:hover {
     margin-left: -3.5em;
     margin-top: -2em;
   }
+  .case_study_shunya {
+    background: url(../images/shunya_inc_bg.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    padding: 4em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% auto;
+        grid-template-columns: 40% auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 2em;
+  }
+  .case_study_shunya button {
+    margin-left: -.5em;
+    margin-top: -1em;
+  }
+  .case_study_shunya img {
+    margin-left: 1em;
+  }
+  .case_study_summit {
+    background: url(../images/summit_bg.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    padding: 4em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% auto;
+        grid-template-columns: 40% auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 2em;
+  }
+  .case_study_summit .count {
+    font-size: 15px;
+  }
+  .case_study_summit button {
+    margin-left: -.5em;
+    margin-top: -1em;
+  }
+  .case_study_summit img {
+    margin-left: 1em;
+  }
+  .count {
+    font-size: 20px;
+  }
+  .about_me {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 4em;
+  }
+  .about_me .about_me_left {
+    width: 60%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
