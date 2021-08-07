@@ -348,15 +348,44 @@ button:hover{
         }
         .hero{
             display: flex;
+            h1{
+                font-size: 4em;
+                line-height: -130%;
+            }
             
             .content-left {
                 text-align: left;
-                margin: 8em 4em;
-                width: 30em ;
+                margin: 10em 9em;
+                //width: 30em ;
+
+                    h1{
+                        font-size: 4em;
+                        font-weight: normal;
+                        line-height: 1.6;
+                    }
+                    p{
+                        margin-top: -2em;
+                        width: 30em;
+                    }
+            }
+            .content-right img{
+                width: auto;
+                margin-left: 6em;
+                padding: 1em 2em;
             }
             .social-header{
                 margin-left: -3.5em;
                 margin-top: -2em;
             }
+        }
+        .case_study_shunya {
+            background: url(../images/shunya_inc_bg.svg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            display: grid;
+            grid-template-columns: 40% auto;
+            padding: 5em 2em;
+            align-items: center;
+            font-size: 3em;
         }
     }
