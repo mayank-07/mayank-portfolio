@@ -398,4 +398,16 @@ button:hover{
             align-items: center;
             font-size: 3em;
         }
+        .about_me{
+            display: flex;
+            margin-left: 4em;
+            .about_me_left {
+                width: 50%;
+            }
+        }
+        .memoji{
+            width: fit-content;
+            margin-top: -3em;
+            margin-left: 10em;
+        }
     }

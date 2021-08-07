@@ -453,5 +453,21 @@ button:hover {
             align-items: center;
     font-size: 3em;
   }
+  .about_me {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 4em;
+  }
+  .about_me .about_me_left {
+    width: 50%;
+  }
+  .memoji {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: -3em;
+    margin-left: 10em;
+  }
 }
 /*# sourceMappingURL=main.css.map */
