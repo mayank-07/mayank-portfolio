@@ -316,6 +316,7 @@ button:hover {
   .hero .content-left {
     text-align: left;
     margin: 8em 4em;
+    width: 30em;
   }
   .hero .social-header {
     margin-left: -3.5em;
