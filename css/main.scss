@@ -388,4 +388,14 @@ button:hover{
             align-items: center;
             font-size: 3em;
         }
+        .case_study_summit {
+            background: url(../images/summit_bg.svg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            display: grid;
+            grid-template-columns: 40% auto;
+            padding: 5em 2em;
+            align-items: center;
+            font-size: 3em;
+        }
     }
