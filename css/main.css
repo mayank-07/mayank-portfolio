@@ -168,11 +168,18 @@ button:hover {
 .primary_footer {
   background-color: black;
   color: white;
-  padding: 10em 10em 5em 10em;
+  padding: 3em 10em 5em 10em;
 }
 
 .primary_footer h2 {
   font-size: 3em;
+  text-align: center;
+}
+
+.primary_footer p {
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 2em;
 }
 
 .primary_footer .desc {
@@ -187,6 +194,23 @@ button:hover {
 .primary_footer .ending {
   margin-top: 2em;
   text-align: center;
+}
+
+.primary_footer .contact {
+  text-align: center;
+}
+
+.primary_footer .contact ul li {
+  padding: 2em;
+  display: inline;
+}
+
+.primary_footer .contact ul li a {
+  color: white;
+}
+
+.primary_footer .contact ul li a:visited {
+  color: white;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
@@ -463,6 +487,9 @@ button:hover {
             align-items: center;
     font-size: 3em;
   }
+  .case_study_shunya button {
+    margin: -0.5em;
+  }
   .case_study_summit {
     background: url(../images/summit_bg.svg);
     background-repeat: no-repeat;
@@ -476,6 +503,9 @@ button:hover {
         -ms-flex-align: center;
             align-items: center;
     font-size: 3em;
+  }
+  .case_study_summit button {
+    margin: -0.5em;
   }
   .about_me {
     display: -webkit-box;
