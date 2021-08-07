@@ -142,6 +142,25 @@ button{
 button:hover{
     background-color: black;
 }
+.primary_footer {
+    background-color: black;
+    color: white;
+    padding: 10em 10em 5em 10em;
+    h2{
+        font-size: 3em;
+    }
+    .desc {
+        font-size: 1.5em;
+        margin-top: -2em;
+    }
+    .line {
+        border: white;
+    }
+    .ending {
+        margin-top: 2em;
+        text-align: center;
+    }
+}
 
 
 // @media only screen and (max-width: 360px){
