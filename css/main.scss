@@ -255,6 +255,7 @@ button:hover{
             justify-content: center;
             width: 100%;
             height: auto;
+            margin-top: -2em;
 
     }
     .case_study_content{
@@ -332,5 +333,30 @@ button:hover{
                 width: 60%;
             }
         }
+        .memoji{
+            margin-top: -2em;
+        }
 
+    }
+
+    @media only screen and (min-width: 1200px) {
+        .content-right{
+            display: unset;
+        }
+        .nav-container{
+            padding: 1em 10em;
+        }
+        .hero{
+            display: flex;
+            
+            .content-left {
+                text-align: left;
+                margin: 8em 4em;
+                width: 30em ;
+            }
+            .social-header{
+                margin-left: -3.5em;
+                margin-top: -2em;
+            }
+        }
     }

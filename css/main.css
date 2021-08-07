@@ -297,6 +297,7 @@ button:hover {
             justify-content: center;
     width: 100%;
     height: auto;
+    margin-top: -2em;
   }
   .case_study_content {
     font-size: 2em;
@@ -380,6 +381,32 @@ button:hover {
   }
   .about_me .about_me_left {
     width: 60%;
+  }
+  .memoji {
+    margin-top: -2em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .content-right {
+    display: unset;
+  }
+  .nav-container {
+    padding: 1em 10em;
+  }
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .hero .content-left {
+    text-align: left;
+    margin: 8em 4em;
+    width: 30em;
+  }
+  .hero .social-header {
+    margin-left: -3.5em;
+    margin-top: -2em;
   }
 }
 /*# sourceMappingURL=main.css.map */
