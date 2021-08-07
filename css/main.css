@@ -169,16 +169,15 @@ button:hover {
   background-color: black;
   color: white;
   padding: 3em 10em 5em 10em;
+  width: 100%;
 }
 
 .primary_footer h2 {
-  font-size: 3em;
   text-align: center;
 }
 
 .primary_footer p {
   text-align: center;
-  font-size: 17px;
   margin-bottom: 2em;
 }
 
@@ -280,6 +279,9 @@ button:hover {
     width: 4em;
     height: auto;
   }
+  .primary_footer h2 {
+    font-size: 17px;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 979px) {
@@ -350,6 +352,9 @@ button:hover {
   .case_study_content {
     font-size: 2em;
     text-align: center;
+  }
+  .primary_footer h2 {
+    font-size: 3em;
   }
 }
 
@@ -432,6 +437,9 @@ button:hover {
   }
   .memoji {
     margin-top: -2em;
+  }
+  .primary_footer h2 {
+    font-size: 4em;
   }
 }
 
@@ -522,6 +530,9 @@ button:hover {
     width: fit-content;
     margin-top: -3em;
     margin-left: 10em;
+  }
+  .primary_footer h2 {
+    font-size: 4em;
   }
 }
 /*# sourceMappingURL=main.css.map */
