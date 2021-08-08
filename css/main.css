@@ -276,7 +276,7 @@ button:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 4em;
+    width: 18em;
     height: auto;
   }
 }
