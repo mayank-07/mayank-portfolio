@@ -146,7 +146,7 @@ button:hover{
 .primary_footer {
     background-color: black;
     color: white;
-    padding: 3em 10em 5em 10em;
+    padding: 3em 2em 2em 2em;
     h2{
         text-align: center;
     }
@@ -168,7 +168,7 @@ button:hover{
     .contact {
         text-align: center;
         ul li {
-            padding: 2em;
+            padding: 1em 2em;
             display: inline;
             a{
                 color: white;
@@ -245,11 +245,6 @@ button:hover{
         width: 4em;
         height: auto;
     }
-    .primary_footer{
-        h2{
-            font-size: 17px;
-        }
-    }
 
 
 
@@ -309,11 +304,7 @@ button:hover{
         font-size: 2em;
         text-align: center;
     }
-    .primary_footer{
-        h2{
-            font-size: 3em;
-        }
-    }
+
 }
 
 @media only screen and (min-width: 980px) and (max-width: 1199px) {
@@ -387,11 +378,6 @@ button:hover{
         }
         .memoji{
             margin-top: -2em;
-        }
-        .primary_footer{
-            h2{
-                font-size: 4em;
-            }
         }
 
     }
@@ -472,10 +458,5 @@ button:hover{
             width: fit-content;
             margin-top: -3em;
             margin-left: 10em;
-        }
-        .primary_footer{
-            h2{
-                font-size: 4em;
-            }
         }
     }
