@@ -39,7 +39,7 @@ header {
 
     .logo {
         color: black;
-        font-size: 1.4em;
+        font-size: 1.2em;
         font-weight: bold;
     }
     
@@ -384,6 +384,7 @@ button:hover{
 
     @media only screen and (min-width: 1200px) {
         .content-right{
+            margin-left: 10em;
             display: unset;
         }
         .nav-container{
@@ -407,7 +408,7 @@ button:hover{
                         line-height: 1.6;
                     }
                     p{
-                        margin-top: -2em;
+                        margin-top: -3em;
                         width: 30em;
                     }
             }
