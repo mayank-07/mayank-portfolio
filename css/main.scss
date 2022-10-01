@@ -665,6 +665,18 @@ button:hover {
     }
   }
 }
+#trinkerrCaseStudy {
+  background: url(../images/trinkerr_bg.svg);
+  background-size: cover;
+  margin-bottom: 7rem;
+  .caseStudyRight {
+    img {
+      box-shadow: none;
+      width: 80%;
+    }
+  }
+}
+
 #summitCaseStudy {
   background: url(../images/summit_bg.svg);
   background-size: cover;
