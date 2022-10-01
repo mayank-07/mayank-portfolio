@@ -431,7 +431,8 @@ button:hover {
 }
 @media only screen and (min-width: 1200px) {
   .content-right {
-    margin-left: 10em;
+    width: 50%;
+    margin-left: 10rem;
     display: unset;
   }
   .nav-container {
