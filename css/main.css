@@ -163,8 +163,14 @@ header ul a {
   display: grid;
   text-align: center;
   padding: 4em 4em 4em 4em;
-  height: 300px;
+  height: 20em;
 }
+
+.organizations p {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
 .organizations .organization_logos {
   width: auto;
   margin-left: auto;
@@ -542,22 +548,23 @@ button:hover {
   align-items: center;
 }
 .caseStudy .caseStudyLeft {
-  width: 52%;
   height: 100%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .caseStudy .caseStudyLeft .caseStudyContent {
-  width: 65%;
+  width: 55%;
 }
 .caseStudy .caseStudyLeft .caseStudyContent .count {
-  font-size: 3rem;
+  font-size: 2rem;
+  margin-bottom: -2rem;
 }
 .caseStudy .caseStudyLeft .caseStudyContent .title {
-  font-size: 3rem;
-  margin: 0;
+  font-size: 2.5em;
 }
+
 .caseStudy .caseStudyLeft .caseStudyContent .caseStudybtn {
   margin-left: 0;
 }
@@ -566,11 +573,12 @@ button:hover {
   justify-content: flex-start;
   align-items: center;
   height: 100%;
-  width: 48%;
+  width: 50%;
 }
 .caseStudy .caseStudyRight img {
   box-shadow: -12px 13px 25px -12px rgba(0, 0, 0, 0.25);
-  width: 80%;
+  width: 90%;
+  max-height: max-content;
 }
 
 @media (max-width: 1000px) {
