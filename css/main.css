@@ -163,7 +163,6 @@ header ul a {
   display: grid;
   text-align: center;
   padding: 4em 4em 4em 4em;
-  height: 20em;
 }
 
 .organizations p {
@@ -175,13 +174,11 @@ header ul a {
   width: auto;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 0;
 }
 .organizations .organization_logos ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 2em;
 }
 .organizations .organization_logos ul li {
   padding: 1em;
