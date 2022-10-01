@@ -642,4 +642,14 @@ button:hover {
 #shunyaCaseStudy {
   background: url(../images/shunya_inc_bg.svg);
   background-size: cover;
-}/*# sourceMappingURL=main.css.map */
+}
+#trinkerrCaseStudy {
+  background: url(../images/trinkerr_bg.svg);
+  background-size: cover;
+  margin-bottom: 7rem;
+}
+/*# sourceMappingURL=main.css.map */
+#trinkerrCaseStudy .caseStudyRight img {
+    box-shadow: none;
+    width: 80%;
+}
