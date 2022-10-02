@@ -55,6 +55,9 @@ img {
 .navbar .navbar-right .navbar-list .list-item a {
   color: black;
 }
+.about_me .about_me_left {
+  color:#2B2B2B;
+}
 
 @media (max-width: 900px) {
   .navbar {
