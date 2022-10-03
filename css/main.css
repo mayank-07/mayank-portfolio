@@ -310,7 +310,8 @@ button:hover {
   .memoji img {
     display: flex;
     justify-content: center;
-    width: 18em;
+    max-width: 18em;
+    width: auto;
     height: auto;
   }
 }
