@@ -59,6 +59,54 @@ img {
   color:#2B2B2B;
 }
 
+.tinkerWorks {
+  background: white;
+  color: black;
+  display: grid;
+  text-align: center;
+  padding: 3em;
+  font-size: 1.5em;
+}
+.tinkerWorks h1 {
+  font-size: 1.6em;
+  line-height: 9px;
+}
+.tinkerWorks p {
+  font-size: 0.7em;
+}
+
+.tinkerWorks .tBox {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0;
+}
+.tinkerWorks .tBox ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tinkerWorks .tBox ul li {
+  display: flex;
+  align-items: center;
+  background-color: #EAEAEA;
+  border-radius: 1em;
+  width:19rem;
+  height:9rem;
+  margin: 3em;
+}
+
+.tinkerWorks .tBox ul li img{
+  width: auto;
+}
+.tinkerWorks .tBox ul li p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #525252;
+  width: 60%;
+}
+
+
 @media (max-width: 900px) {
   .navbar {
     width: 100vw;
