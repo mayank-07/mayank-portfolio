@@ -665,5 +665,14 @@ button:hover {
   box-shadow: none;
   width: 80%;
 }
+#obCaseStudy {
+  background: url(../images/optionbingo_bg.svg);
+  background-size: cover;
+  margin-bottom: 7rem;
+}
+#obCaseStudy .caseStudyRight img {
+  box-shadow: none;
+  width: 80%;
+}
 
 /*# sourceMappingURL=main.css.map */
