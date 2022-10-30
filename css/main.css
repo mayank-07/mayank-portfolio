@@ -157,7 +157,10 @@ header ul a {
 }
 
 .scroll {
+  margin: -1em;
   text-align: center;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .organizations {
