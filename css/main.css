@@ -571,6 +571,9 @@ button:hover {
 .caseStudy .caseStudyLeft .caseStudyContent .title {
   font-size: 2.5em;
 }
+.caseStudy .caseStudyLeft .caseStudyContent .caseStudyType {
+  margin-top: -2em;
+}
 
 .caseStudy .caseStudyLeft .caseStudyContent .caseStudybtn {
   margin-left: 0;
@@ -616,17 +619,16 @@ button:hover {
     margin: 0;
   }
 }
-@media (max-width: 1000px) and (max-width: 700px) {
+@media (max-width: 1000px) and (min-width: 700px) {
   .caseStudy .caseStudyLeft .caseStudyContent .count {
     font-size: 0.8rem;
-    margin: 0;
   }
   .caseStudy .caseStudyLeft .caseStudyContent .title {
     font-size: 1.8rem;
     margin-top: 1rem;
   }
 }
-@media (max-width: 1000px) and (max-width: 700px) {
+@media (max-width: 1000px) and (min-width: 700px) {
   .caseStudy .caseStudyLeft .caseStudyContent .title {
     font-size: 1.2rem;
   }
