@@ -574,6 +574,7 @@ button:hover {
 
 .caseStudy .caseStudyLeft .caseStudyContent .caseStudybtn {
   margin-left: 0;
+  font-size: 1em;
 }
 .caseStudy .caseStudyRight {
   display: flex;
